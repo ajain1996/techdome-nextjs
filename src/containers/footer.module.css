@@ -1,0 +1,15 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100px;
+}
+.footerContainer p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.footerContainer p span {
+  font-size: 18px;
+  font-weight: 500;
+}

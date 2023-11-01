@@ -1,0 +1,53 @@
+.card {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 15px;
+}
+.ul {
+  list-style-type: none;
+}
+.imgContainer {
+  background-color: #f2f2f2;
+  position: relative;
+  height: 278px;
+}
+.images {
+  padding: 2px;
+  object-fit: contain;
+}
+.cardTitles {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.cardTitles p {
+  font-size: large;
+  font-weight: bold;
+}
+
+.cardTitles p span {
+  font-size: large;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 700px) {
+  .imgContainer {
+    height: 280px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .imgContainer {
+    height: 394px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .imgContainer {
+    height: 394px;
+  }
+}
